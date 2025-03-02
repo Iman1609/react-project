@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
 function Slider() {
-  const slides = Array.from({ length: 13 }, (_, i) => `./slide ${i + 1}.jpg`);
+  const slides = Array.from({ length: 13 }, (_, i) => `/slide ${i + 1}.jpg`);
   const [currentSlide, setCurrentSlide] = useState(0);
 
   useEffect(() => {
