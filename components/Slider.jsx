@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
 function Slider() {
-  const slides = Array.from({ length: 13 }, (_, i) => `./assets/slide ${i + 1}.jpg`);
+  const slides = Array.from({ length: 13 }, (_, i) => `./slide ${i + 1}.jpg`);
   const [currentSlide, setCurrentSlide] = useState(0);
 
   useEffect(() => {
@@ -31,14 +31,14 @@ function Slider() {
         <div className="absolute top-2 right-2">
           <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             <div className="bg-white p-1 rounded-full shadow-md cursor-pointer hover:bg-gray-100 group/visual">
-              <img src="/assets/visual-search.svg" alt="Search" className="w-5 h-5" />
+              <img src="/visual-search.svg" alt="Search" className="w-5 h-5" />
              
               <div className="absolute top-full right-0 mt-1 flex flex-col space-y-1 opacity-0 group-hover/visual:opacity-100 transition-opacity duration-300">
                 <div className="bg-white p-1 rounded-full shadow-md cursor-pointer hover:bg-gray-100">
-                  <img src="/assets/save-copy.svg" alt="Save" className="w-5 h-5" />
+                  <img src="/save-copy.svg" alt="Save" className="w-5 h-5" />
                 </div>
                 <div className="bg-white p-1 rounded-full shadow-md cursor-pointer hover:bg-gray-100">
-                  <img src="/assets/horizontal-ellipsis.svg" alt="Settings" className="w-5 h-5" />
+                  <img src="/horizontal-ellipsis.svg" alt="Settings" className="w-5 h-5" />
                 </div>
               </div>
             </div>

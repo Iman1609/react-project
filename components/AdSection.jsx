@@ -1,4 +1,4 @@
-import adBanner from '/assets/add 1.png';
+import adBanner from '/add 1.png';
 
 function AdSection() {
   return (

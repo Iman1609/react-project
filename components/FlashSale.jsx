@@ -1,10 +1,10 @@
 const flashSaleItems = [
-  { img: '/assets/F1.jpg', title: 'M19 Airpods TWS Bluetooth ', price: '₨848', original: '₨4,000', discount: '-79%' },
-  { img: '/assets/F2.jpg', title: 'b2 PC Unstitched Suit..', price: '₨1,750', original: '₨2,450', discount: '-28%' },
-  { img: '/assets/F3.jpg', title: 'for heatless curls<br>curler bands...', price: '₨176', original: '₨299', discount: '-29%' },
-  { img: '/assets/F4.jpg', title: 'Wall Paper<br>Heat Resistant...', price: '₨296', original: '₨650', discount: '-54%' },
-  { img: '/assets/F5.jpg', title: 'P47 Wireless Headset', price: '₨839', original: '₨1,500', discount: '-44%' },
-  { img: '/assets/F6.png', title: 'Closet Organizer Water-resistant...', price: '₨176', original: '₨299', discount: '-41%' },
+  { img: '/F1.jpg', title: 'M19 Airpods TWS Bluetooth ', price: '₨848', original: '₨4,000', discount: '-79%' },
+  { img: '/F2.jpg', title: 'b2 PC Unstitched Suit..', price: '₨1,750', original: '₨2,450', discount: '-28%' },
+  { img: '/F3.jpg', title: 'for heatless curls<br>curler bands...', price: '₨176', original: '₨299', discount: '-29%' },
+  { img: '/F4.jpg', title: 'Wall Paper<br>Heat Resistant...', price: '₨296', original: '₨650', discount: '-54%' },
+  { img: '/F5.jpg', title: 'P47 Wireless Headset', price: '₨839', original: '₨1,500', discount: '-44%' },
+  { img: '/F6.png', title: 'Closet Organizer Water-resistant...', price: '₨176', original: '₨299', discount: '-41%' },
 ];
 
 function FlashSale() {

@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '/assets/daraz logo.png'
+import logo from '/daraz logo.png'
 
 function Header() {
   return (

@@ -7,7 +7,7 @@ import FlashSale from '/components/FlashSale';
 import Categories from '/components/Categories';
 import JustForYou from '/components/JustForYou';
 import Footer from '/components/Footer';
-import tryDarazApp from '/assets/try daraz app.png';
+import tryDarazApp from '/try daraz app.png';
 
 function App() {
   return (
